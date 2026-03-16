@@ -1,0 +1,13 @@
+{
+  "fun": {
+    "prefix": "fun",
+    "body": [
+      "${1:name} <- \\(${2:arg}) {",
+	  "",
+	  "  $0",
+	  "",
+	  "}"
+    ],
+    "description": "Insérer une fonction"
+  }
+}
