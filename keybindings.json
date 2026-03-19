@@ -1,5 +1,11 @@
 [
     {
+        "key": "ctrl+,",
+        "command": "workbench.action.openSettings",
+        "args": "@scope:remote",
+        "when": "remoteName == 'wsl' || remoteName == 'ssh-remote'"
+    },
+    {
         "key": "ctrl+space",
         "command": "workbench.action.positronConsole.focusConsole",
         "when": "editorTextFocus"
